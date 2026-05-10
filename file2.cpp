@@ -1,13 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
   int n;
   cin >> n;
-  cout << n + 1 << endl;
-  if (n == 1)
-    cout << "it was one" << endl;
-  else
-    cout << "other than one";
+  vector<int> a(n);
+  for (auto &A : a) {
+    cin >> A;
+  }
   return 0;
 }
